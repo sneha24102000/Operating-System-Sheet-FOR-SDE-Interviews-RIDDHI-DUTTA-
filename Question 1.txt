@@ -1,0 +1,25 @@
+Operating System Sheet FOR SDE Interviews
+            ( RIDDHI DUTTA )
+
+Q1. What is the difference between process and thread? 
+Ans- Process-
+        1.Process means any program is in execution.
+        2.Process takes more time to terminate.
+        3.It takes more time for creation.
+        4.It also takes more time for context switching.
+        5.Process is less efficient in term of communication.
+        6.Process consume more resources.
+        7.Process is isolated.
+        8.Process switching uses interface in operating system.
+        9.Process has its own Process Control Block, Stack and Address Space.
+ 
+       Thread-
+        1.Thread means segment of a process.
+        2.Thread takes less time to terminate.
+        3.It takes less time for creation.
+        4.It takes less time for context switching.
+        5.Thread is more efficient in term of communication.
+        6.Thread consume less resources.
+        7.Threads share memory.
+        8.Thread switching does not require to call a operating system and cause an interrupt to            the kernel.
+        9.Thread has Parents’ PCB, its own Thread Control Block and Stack and common Address space.
