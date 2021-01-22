@@ -1,0 +1,4 @@
+Q4.What is Paging & Segmentation? (VVI)
+
+
+     Ans link-https://www.geeksforgeeks.org/difference-between-paging-and-segmentation/
