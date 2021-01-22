@@ -1,0 +1,6 @@
+3.What is Virtual Memory? How is it implemented? 
+Ans-Virtual Memory is a storage allocation scheme in which secondary memory can be addressed as       though it were part of main memory.
+
+      Virtual memory is implemented using Demand Paging or Demand Segmentation.
+      Demand Paging :The process of loading the page into memory on demand
+      (whenever page fault occurs) is known as demand paging. 
