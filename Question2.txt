@@ -1,0 +1,15 @@
+Q2. What are the benefits of multithreaded programming? 
+Ans-The benefits of multi threaded programming can be broken down into four major categories:
+
+-Responsiveness :–
+   Multithreading in an interactive application may allow a program to continue running even if a part of    it is blocked or is performing a lengthy operation, thereby increasing responsiveness to the user.
+-Resource Sharing :–
+  Processes may share resources only through techniques such as-
+  -Message Passing
+  -Shared Memory
+  Such techniques must be explicitly organized by programmer. However, threads share the memory   and the resources of the process to which they belong by default.
+  The benefit of sharing code and data is that it allows an application to have several threads of activity   within same address space.
+-Economy :–
+   Allocating memory and resources for process creation is a costly job in terms of time and space.
+-Scalability –
+  The benefits of multi-programming greatly increase in case of multiprocessor architecture, where   threads may be running parallel on multiple processors.
