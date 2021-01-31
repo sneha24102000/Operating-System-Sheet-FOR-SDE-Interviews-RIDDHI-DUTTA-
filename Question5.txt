@@ -1,0 +1,10 @@
+Q5. What is Page Fault? How to handle it?
+
+ANS-A page fault occurs when a program attempts to access data or code that is in its address space, but is not currently located in the system RAM. 
+*Handling of a Page Fault-
+Check the location of the referenced page in the PMT
+If a page fault occured, call on the operating system to fix it
+Using the frame replacement algorithm, find the frame location
+Read the data from disk to memory
+Update the page map table for the process
+The instruction that caused the page fault is restarted when the process resumes execution.
