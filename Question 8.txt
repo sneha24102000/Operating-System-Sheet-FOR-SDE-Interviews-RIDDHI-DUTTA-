@@ -1,0 +1,6 @@
+Thrashing is a computer activity that makes little or no progress.Usually, this happens either of limited resources or exhaustion of memory.
+It arises when a page fault occurs.Page fault arises when memory access of virtual memory space does not map to the content of RAM.
+
+The effect of Thrashing is 
+1.CPU becomes idle.
+2.Decreasing the utilization increases the degree of multiprogramming and hence bringing more processes at a time which in fact increases the thrashing exponentially.
