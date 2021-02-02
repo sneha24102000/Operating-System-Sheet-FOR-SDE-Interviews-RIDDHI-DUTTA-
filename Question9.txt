@@ -1,0 +1,11 @@
+Bélády’s anomaly is the name given to the phenomenon where increasing the number of page frames results in an increase in the number of page faults for a given memory access pattern.
+
+This phenomenon is commonly experienced in following page replacement algorithms:
+
+
+
+First in first out (FIFO)
+Second chance algorithm
+Random page replacement algorithm
+Reason of Belady’s Anomaly –
+The other two commonly used page replacement algorithms are Optimal and LRU, but Belady’s Anamoly can never occur in these algorithms for any reference string as they belong to a class of stack based page replacement algorithms.
