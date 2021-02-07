@@ -1,0 +1,12 @@
+Q14.What are the necessary conditions for deadlock? 
+
+Ans-There are 4 conditions necessary for the occurrence of a deadlock-
+
+-Mutual Exclusion:
+When two people meet in the landings, they can’t just walk through because there is space only for one person. This condition to allow only one person (or process) to use the step between them (or the resource) is the first condition necessary for the occurrence of the deadlock.
+-Hold and Wait:
+When the 2 people refuses to retreat and hold their grounds, it is called holding. This is the next necessary condition for the the deadlock.
+-No Preemption:
+For resolving the deadlock one can simply cancel one of the processes for other to continue. But Operating System doesn’t do so. It allocates the resources to the processors for as much time needed until the task is completed. Hence, there is no temporary reallocation of the resources. It is third condition for deadlock.
+-Circular Wait:
+When the two people refuses to retreat and wait for each other to retreat, so that they can complete their task, it is called circular wait. It is the last condition for the deadlock to occur.
