@@ -1,0 +1,2 @@
+Q19. What is Race around Condition?
+Ans-Race around is a situation where several process access and manipulate same data congruently and the outcome of execution depends on the particular order in which access takes place .
